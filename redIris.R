@@ -21,4 +21,7 @@ codificado = mutate(codificado, especie = recode(codificado$decodifica.col,"1"="
 test$Especie = codificado$especie
 
 #Visualizar pesos 
+
 red.neuronal$weights
+
+print(weights_in_hidden1 <- red.neuronal$weights[[1]])
